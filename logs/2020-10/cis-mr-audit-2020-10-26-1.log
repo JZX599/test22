@@ -1,0 +1,684 @@
+[00:03:42:387] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[00:03:42:516] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [图片测试]
+[00:03:42:517] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[00:03:42:517] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[00:03:44:102] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:03:44:106] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:03:48:443] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:03:48:444] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[00:04:05:533] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[00:04:05:534] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[00:04:05:534] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[00:04:05:535] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[00:04:06:751] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:04:06:753] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:04:24:021] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:04:24:023] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:06:53:287] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[00:06:53:288] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试2]
+[00:06:53:288] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+
+# 2.3　Bootstrap框架
+
+
+## 2.3.1　Bootstrap概述
+Bootstrap是一个用于快速开发WEB应用程序和网站的前端框架[6]。主要好处是容易上手使用且开源免费，所有的项目都适用且能够进行快速开发，它让WEB工程项目的页面效果实现变得更加简单。只需要提供固定的HTML结构，添加固定的class样式就能实现响应式网站在PC端与移动端进行页面的完美展示，并且能够符合代码规范化的使用要求，使页面外观简洁大方，兼容性强。
+
+::: hljs-center
+
+![img01.jpg](http://localhost:8088/files/ArtUpload/fbfb70a9755e4c7e982eb005434437d8_img01.jpg)
+
+:::
+]
+[00:06:53:289] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [46]
+[00:06:54:577] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:06:54:579] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:07:40:559] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:07:40:564] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:08:03:124] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:08:03:128] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:08:44:483] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:08:44:485] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:09:48:855] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:09:48:857] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:11:27:516] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:11:27:521] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:12:24:340] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:12:24:348] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:12:25:006] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:12:25:007] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:12:27:250] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:12:27:253] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:12:30:551] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:12:30:551] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[00:12:34:199] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[00:12:34:200] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[00:12:34:200] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[00:12:34:200] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[00:12:35:561] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:12:35:564] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:12:38:566] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:12:38:567] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[00:12:41:284] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:12:41:288] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:12:43:093] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:12:43:095] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[00:12:46:454] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[00:12:46:454] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[00:12:46:455] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[00:12:46:456] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[00:12:47:456] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:12:47:462] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:13:39:418] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:13:39:426] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:13:39:760] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:13:39:761] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:14:14:472] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:14:14:473] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:14:14:674] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:14:14:677] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:14:34:113] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:14:34:114] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:14:34:335] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:14:34:338] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:17:05:144] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:17:05:146] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:17:07:932] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[00:17:07:938] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:17:11:868] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[00:17:11:869] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:17:12:546] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[00:17:12:549] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:17:13:018] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[00:17:13:028] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:18:06:349] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:18:06:352] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:18:31:911] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[00:18:31:913] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:18:35:276] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[00:18:35:279] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:19:28:142] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:19:28:142] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:19:28:332] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[00:19:28:334] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[00:19:30:998] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:19:31:000] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:19:38:895] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:19:38:898] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:20:15:146] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:20:15:152] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:20:15:299] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:20:15:300] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:20:28:701] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:20:28:703] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:20:57:152] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:20:57:153] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:41:43:463] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:41:43:466] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:42:09:093] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[00:42:09:094] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[00:42:14:290] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:42:14:292] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:21:352] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:42:21:354] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:26:819] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:42:26:821] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:48:025] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[00:42:48:027] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:57:206] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[00:42:57:210] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:58:083] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[00:42:58:086] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:58:749] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[00:42:58:750] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:42:59:443] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[00:42:59:447] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[00:43:00:119] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[00:43:00:121] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:34:24:230] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting BlogApplication on DESKTOP-52NRVFL with PID 4352 (D:\IdeaProjects\blog\target\classes started by jzx in D:\IdeaProjects\blog)
+[08:34:24:249] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+[08:34:24:418] [INFO] - org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8c4648: startup date [Mon Oct 26 08:34:24 CST 2020]; root of context hierarchy
+[08:34:26:763] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:328) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6f9e9136] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[08:34:27:462] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+[08:34:27:480] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+[08:34:27:494] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting service [Tomcat]
+[08:34:27:494] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.29
+[08:34:27:607] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Rational Rose\Common;D:\java\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global\node_modules;C:\Users\jzx\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Users\jzx\AppData\Roaming\npm;.]
+[08:34:27:813] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+[08:34:27:813] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 3395 ms
+[08:34:27:840] [INFO] - com.jzx.blog.config.DruidConfiguration.druidServlet(DruidConfiguration.java:20) - init Druid Servlet Configuration 
+[08:34:28:080] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet statViewServlet mapped to [/druid/*]
+[08:34:28:081] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet dispatcherServlet mapped to [/]
+[08:34:28:082] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet statViewServlet mapped to [/druid/*]
+[08:34:28:082] [INFO] - org.springframework.boot.web.servlet.DynamicRegistrationBean.register(DynamicRegistrationBean.java:111) - Servlet statViewServlet was not registered (possibly already registered?)
+[08:34:28:084] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'characterEncodingFilter' to: [/*]
+[08:34:28:084] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[08:34:28:084] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[08:34:28:084] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'requestContextFilter' to: [/*]
+[08:34:28:084] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:257) - Mapping filter: 'webStatFilter' to urls: [/*]
+[08:34:28:085] [INFO] - org.springframework.boot.web.servlet.DynamicRegistrationBean.register(DynamicRegistrationBean.java:111) - Filter webStatFilter was not registered (possibly already registered?)
+[08:34:28:474] [INFO] - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:361) - Building JPA container EntityManagerFactory for persistence unit 'default'
+[08:34:28:494] [INFO] - org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[08:34:28:658] [INFO] - org.hibernate.Version.logVersion(Version.java:45) - HHH000412: Hibernate Core {5.2.16.Final}
+[08:34:28:661] [INFO] - org.hibernate.cfg.Environment.<clinit>(Environment.java:213) - HHH000206: hibernate.properties not found
+[08:34:28:762] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[08:34:29:797] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[08:34:29:810] [INFO] - org.hibernate.dialect.Dialect.<init>(Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[08:34:30:423] [INFO] - org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[08:34:30:895] [INFO] - org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService(QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+[08:34:31:243] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08:34:31:578] [INFO] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8c4648: startup date [Mon Oct 26 08:34:24 CST 2020]; root of context hierarchy
+[08:34:31:615] [WARN] - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:235) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[08:34:31:665] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/test],methods=[GET]}" onto public com.jzx.blog.domain.Article com.jzx.blog.controller.ArticleController.tset()
+[08:34:31:669] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/getArtinfo/{aid}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.getArtinfo(java.lang.Long)
+[08:34:31:671] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/saveMd],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.saveMd(java.util.HashMap<java.lang.String, java.lang.String>)
+[08:34:31:673] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllArtList],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllArtList()
+[08:34:31:674] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllArt],methods=[GET]}" onto public java.util.List<com.jzx.blog.domain.Article> com.jzx.blog.controller.ArticleController.findAllArt()
+[08:34:31:674] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/uploadFile],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.uploadFile(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+[08:34:31:675] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/updMd],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.updMd(java.util.HashMap<java.lang.String, java.lang.String>)
+[08:34:31:675] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findOneArt/{AId}],methods=[GET]}" onto public com.jzx.blog.domain.Article com.jzx.blog.controller.ArticleController.findOneArt(java.lang.Long)
+[08:34:31:676] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPage/{currentPage}/{pageSize}],methods=[GET]}" onto public org.springframework.data.domain.Page<com.jzx.blog.domain.Article> com.jzx.blog.controller.ArticleController.findAllPage(java.lang.Integer,java.lang.Integer)
+[08:34:31:676] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageArtList/{currentPage}/{pageSize}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllPageArtList(java.lang.Integer,java.lang.Integer)
+[08:34:31:677] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageArtList],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllPageArtList()
+[08:34:31:677] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/deleteCheckArtListIn/{aids}],methods=[DELETE]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.deleteCheckArtList(java.lang.String)
+[08:34:31:679] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/getCateinfoByCid/{cid}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.getCateinfoByCid(java.lang.Long)
+[08:34:31:680] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/saveCate],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.saveCate(com.jzx.blog.domain.Category)
+[08:34:31:681] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/delCate/{cid}],methods=[DELETE]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.delCate(java.lang.Long)
+[08:34:31:681] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/updCateInfo],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.updCateInfo(com.jzx.blog.domain.Category)
+[08:34:31:682] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageCateList/{currentPage}/{pageSize}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.findAllPageCateList(java.lang.Integer,java.lang.Integer)
+[08:34:31:688] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[08:34:31:693] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[08:34:31:716] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:360) - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[08:34:31:716] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/index.html] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[08:34:31:717] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[08:34:31:734] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08:34:31:735] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08:34:31:735] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/files/ArtUpload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08:34:31:951] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:56) - Adding welcome page: class path resource [static/index.html]
+[08:34:32:399] [INFO] - org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+[08:34:32:464] [INFO] - org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+[08:34:32:465] [INFO] - org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:895) - Bean with name 'springDruidDataSource' has been autodetected for JMX exposure
+[08:34:32:466] [INFO] - org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+[08:34:32:475] [INFO] - org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:668) - Located MBean 'springDruidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=springDruidDataSource,type=DruidDataSource]
+[08:34:32:477] [INFO] - org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+[08:34:32:491] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+[08:34:32:506] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+[08:34:32:524] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+[08:34:32:528] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started BlogApplication in 8.942 seconds (JVM running for 12.149)
+[08:36:09:907] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[08:36:09:907] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494) - FrameworkServlet 'dispatcherServlet': initialization started
+[08:36:09:927] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:509) - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[08:36:10:072] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:36:10:509] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:36:38:418] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:36:38:423] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:39:25:653] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:39:25:660] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:39:44:541] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:39:44:544] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:40:20:107] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:40:20:143] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:40:25:699] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:40:25:702] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:40:27:321] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:40:27:322] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[08:40:47:832] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_article (acontent, aname, artime) values (?, ?, ?)
+[08:40:47:837] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [
+
+# 2.3　Bootstrap框架
+
+
+## 2.3.1　Bootstrap概述
+Bootstrap是一个用于快速开发WEB应用程序和网站的前端框架[6]。主要好处是容易上手使用且开源免费，所有的项目都适用且能够进行快速开发，它让WEB工程项目的页面效果实现变得更加简单。只需要提供固定的HTML结构，添加固定的class样式就能实现响应式网站在PC端与移动端进行页面的完美展示，并且能够符合代码规范化的使用要求，使页面外观简洁大方，兼容性强。
+
+::: hljs-center
+
+![img01.jpg](http://localhost:8088/files/ArtUpload/fbfb70a9755e4c7e982eb005434437d8_img01.jpg)
+
+:::
+]
+[08:40:47:838] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [文章测试2]
+[08:40:47:838] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [TIMESTAMP] - [Mon Oct 26 08:40:47 CST 2020]
+[08:40:49:497] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:40:49:504] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:40:56:582] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:40:56:584] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[08:41:14:706] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_article (acontent, aname, artime) values (?, ?, ?)
+[08:41:14:708] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [
+
+# 2.3　Bootstrap框架
+
+
+## 2.3.1　Bootstrap概述
+Bootstrap是一个用于快速开发WEB应用程序和网站的前端框架[6]。主要好处是容易上手使用且开源免费，所有的项目都适用且能够进行快速开发，它让WEB工程项目的页面效果实现变得更加简单。只需要提供固定的HTML结构，添加固定的class样式就能实现响应式网站在PC端与移动端进行页面的完美展示，并且能够符合代码规范化的使用要求，使页面外观简洁大方，兼容性强。
+
+::: hljs-center
+
+![img01.jpg](http://localhost:8088/files/ArtUpload/fbfb70a9755e4c7e982eb005434437d8_img01.jpg)
+
+:::
+]
+[08:41:14:710] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [文章测试2]
+[08:41:14:710] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [TIMESTAMP] - [Mon Oct 26 08:41:14 CST 2020]
+[08:41:16:251] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:41:16:254] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:41:20:218] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:41:20:219] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:44:56:316] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:44:56:321] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:44:59:583] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:44:59:584] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:45:39:765] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:45:39:766] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:46:32:966] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:46:32:967] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:51:54:393] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:51:54:396] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:52:09:273] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:52:09:274] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:53:00:378] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:53:00:380] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:53:52:728] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:53:52:729] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:56:40:921] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:56:40:923] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:58:23:845] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:58:23:846] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:59:03:294] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[08:59:03:295] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[08:59:45:634] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_article (acontent, aname, artime) values (?, ?, ?)
+[08:59:45:635] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[08:59:45:637] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [文章测试]
+[08:59:45:637] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [TIMESTAMP] - [Mon Oct 26 08:59:45 CST 2020]
+[08:59:47:138] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:59:47:143] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[08:59:52:937] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[08:59:52:948] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:00:09:529] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:00:13:014] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:00:13:022] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:00:26:872] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:00:26:876] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:03:08:204] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:03:08:208] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:03:26:834] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:03:26:837] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:04:13:842] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:04:13:849] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:07:44:547] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:07:44:552] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:08:23:492] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:08:23:497] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:11:07:714] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:11:07:717] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:13:52:508] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:13:52:512] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:13:53:410] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:13:53:411] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:15:11:008] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:15:11:010] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:15:16:127] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:15:16:134] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:15:20:804] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:15:20:808] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:15:26:740] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:15:26:743] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:15:38:135] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:15:38:136] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:16:29:979] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:16:29:980] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:21:50:188] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:21:50:191] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:21:53:225] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[09:21:53:231] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[09:21:53:232] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+
+]
+[09:21:53:232] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[09:21:54:977] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:21:54:979] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:21:56:973] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:21:56:974] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:22:14:206] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_article (acontent, aname, artime) values (?, ?, ?)
+[09:22:14:208] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [## 二级标题]
+[09:22:14:208] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [1111]
+[09:22:14:209] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [TIMESTAMP] - [Mon Oct 26 09:22:14 CST 2020]
+[09:22:15:729] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:22:15:734] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:22:56:805] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:22:56:806] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[09:22:59:636] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_article (acontent, aname, artime) values (?, ?, ?)
+[09:22:59:637] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [
+
+# 2.3　Bootstrap框架
+
+
+## 2.3.1　Bootstrap概述
+Bootstrap是一个用于快速开发WEB应用程序和网站的前端框架[6]。主要好处是容易上手使用且开源免费，所有的项目都适用且能够进行快速开发，它让WEB工程项目的页面效果实现变得更加简单。只需要提供固定的HTML结构，添加固定的class样式就能实现响应式网站在PC端与移动端进行页面的完美展示，并且能够符合代码规范化的使用要求，使页面外观简洁大方，兼容性强。
+
+::: hljs-center
+
+![img01.jpg](http://localhost:8088/files/ArtUpload/fbfb70a9755e4c7e982eb005434437d8_img01.jpg)
+
+:::
+]
+[09:22:59:637] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [文章测试2]
+[09:22:59:638] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [TIMESTAMP] - [Mon Oct 26 09:22:59 CST 2020]
+[09:23:01:343] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:23:01:348] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:24:13:218] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:24:13:220] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:30:35:684] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[09:30:35:684] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[09:30:35:685] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+![logo.gif](http://localhost:8088/files/ArtUpload/f07acc27606d485589a552be73e0854f_logo.gif)
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+![竖版.png](http://localhost:8088/files/ArtUpload/5997ecb74db74db6aaaa9e91d3648fe6_竖版.png)
+]
+[09:30:35:685] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[09:30:37:268] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:30:37:270] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:30:39:944] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:30:39:946] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:32:11:767] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:32:11:768] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:35:11:812] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:35:11:816] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:49:22:978] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:49:22:981] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:49:29:258] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:49:29:259] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[09:49:47:678] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[09:49:47:679] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试]
+[09:49:47:679] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+::: hljs-center
+
+
+
+:::
+
+
+::: hljs-center
+
+**毕 业 设 计**
+
+:::
+
+
+【Abstract】　In recent years, with the increasing number of urban public welfare activities, the volunteer team has become a beautiful business card of the city. The sponsors of major activities have a strong demand for volunteer recruitment. College student youth volunteers are important force groups and cultural groups in the voluntary service industry, and play an important role in a series of large-scale national events and institutions.
+This paper discusses the design and implementation of a volunteer recruitment website platform based on JSP. The platform is dedicated to providing a communication platform for groups and individuals who are keen on public welfare, and a multi-functional volunteer and volunteer organization team service platform for college student volunteers and the masses who love voluntary service, such as activity information release, activity registration and personnel management, and activity information management. The design of the system follows the design and implementation idea of software engineering, designs and develops the volunteer service platform according to the MVC web application development mode, and adopts the JSP development technology based on J2EE, expecting to complete the information management of volunteer service effectively through the realization of the project, and provide a feasible service platform for the volunteer service management.
+]
+[09:49:47:679] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [54]
+[09:49:48:980] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:49:48:983] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:49:53:762] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:49:53:765] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[09:50:03:419] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:50:03:422] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:50:06:041] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[09:50:06:043] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[09:50:08:809] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:50:08:812] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:44:624] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:44:626] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:45:437] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:45:439] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:46:356] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:46:358] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:46:960] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:46:964] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:48:209] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:48:211] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:57:49:286] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:57:49:288] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:59:24:063] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[09:59:24:065] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:59:25:444] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:59:25:446] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[09:59:49:370] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[09:59:49:380] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[09:59:55:128] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[09:59:55:130] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:00:03:532] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[10:00:03:535] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:00:49:472] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:00:49:475] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:02:05:118] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[10:02:05:122] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:02:06:438] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:02:06:440] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:20:15:536] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[10:20:15:538] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[10:49:04:409] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:49:04:416] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:49:06:167] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[10:49:06:169] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[10:49:17:757] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:49:17:759] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:49:28:687] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[10:49:28:688] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[10:49:32:368] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:49:32:371] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:10:460] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:10:462] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:11:762] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:14:329] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:51:14:330] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:21:021] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:21:023] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:22:333] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:22:338] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:23:057] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:23:059] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:23:853] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:23:854] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:24:488] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:24:490] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:25:045] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:25:046] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:25:878] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:25:880] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:26:829] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:26:830] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:28:256] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[10:51:28:258] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:51:35:539] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[10:51:35:541] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:41:672] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:41:677] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:42:288] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:42:290] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:42:876] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:42:878] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:43:526] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:43:537] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:45:524] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:45:623] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:51:46:143] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:47:531] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:51:47:534] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:52:02:592] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_category (cname) values (?)
+[10:52:02:593] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [哈哈]
+[10:52:02:621] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[10:52:02:623] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[10:52:13:551] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:13:553] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [120]
+[10:52:16:720] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:16:721] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [120]
+[10:52:21:545] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:21:545] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [120]
+[10:52:24:161] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:24:162] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [117]
+[10:52:26:686] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:26:687] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [116]
+[10:52:28:533] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:28:534] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [115]
+[10:52:30:599] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ where category0_.cid=?
+[10:52:30:600] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [114]
+[10:52:51:504] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[10:52:51:507] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[10:52:54:392] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[10:52:54:394] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[11:22:08:897] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[11:22:08:899] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:03:17:335] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:03:17:339] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[12:03:21:952] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[12:03:21:953] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:03:23:381] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:03:23:382] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[12:03:54:745] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - update b_article set aname=?, acontent=? where aid=?
+[12:03:54:758] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [文章测试2]
+[12:03:54:759] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [2] as [VARCHAR] - [
+
+# 2.3　Bootstrap框架
+
+
+## 2.3.1　Bootstrap概述
+Bootstrap是一个用于快速开发WEB应用程序和网站的前端框架[6]。主要好处是容易上手使用且开源免费，所有的项目都适用且能够进行快速开发，它让WEB工程项目的页面效果实现变得更加简单。只需要提供固定的HTML结构，添加固定的class样式就能实现响应式网站在PC端与移动端进行页面的完美展示，并且能够符合代码规范化的使用要求，使页面外观简洁大方，兼容性强。
+
+::: hljs-center
+
+![img02.jpg](http://localhost:8088/files/ArtUpload/52c0918fd8474df0acaf5bc294f61010_img02.jpg)
+
+:::
+]
+[12:03:54:759] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [3] as [BIGINT] - [46]
+[12:03:56:378] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[12:03:56:382] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:03:58:149] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:03:58:181] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]
+[12:04:01:625] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[12:04:01:628] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:04:03:187] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:04:03:189] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[12:04:10:947] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[12:04:11:090] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:04:15:851] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:04:15:851] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [54]
+[12:04:19:051] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[12:04:19:052] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[12:04:20:766] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ where article0_.aid=?
+[12:04:20:767] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [46]

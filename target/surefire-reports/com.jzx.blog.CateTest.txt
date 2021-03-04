@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jzx.blog.CateTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in com.jzx.blog.CateTest
+test1(com.jzx.blog.CateTest)  Time elapsed: 0.009 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.jzx.blog.domain.Category entity with id 84 exists!
+	at com.jzx.blog.CateTest.test1(CateTest.java:38)
+

@@ -1,0 +1,808 @@
+[13:59:44:942] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting BlogApplication on DESKTOP-52NRVFL with PID 7192 (D:\IdeaProjects\blog\target\classes started by jzx in D:\IdeaProjects\blog)
+[13:59:45:005] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+[13:59:45:068] [INFO] - org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@311c06c9: startup date [Wed Oct 07 13:59:45 CST 2020]; root of context hierarchy
+[13:59:46:611] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:328) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9bbc37f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[13:59:47:005] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:91) - Tomcat initialized with port(s): 8088 (http)
+[13:59:47:018] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8088"]
+[13:59:47:029] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting service [Tomcat]
+[13:59:47:030] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.29
+[13:59:47:035] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\Rational Rose\Common;D:\java\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_global\node_modules;C:\Users\jzx\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\Microsoft VS Code\bin;C:\Program Files\nodejs\node_global;C:\Users\jzx\AppData\Roaming\npm;.]
+[13:59:47:197] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+[13:59:47:197] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 2129 ms
+[13:59:47:208] [INFO] - com.jzx.blog.config.DruidConfiguration.druidServlet(DruidConfiguration.java:20) - init Druid Servlet Configuration 
+[13:59:47:389] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet statViewServlet mapped to [/druid/*]
+[13:59:47:391] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet dispatcherServlet mapped to [/]
+[13:59:47:391] [INFO] - org.springframework.boot.web.servlet.ServletRegistrationBean.addRegistration(ServletRegistrationBean.java:185) - Servlet statViewServlet mapped to [/druid/*]
+[13:59:47:391] [INFO] - org.springframework.boot.web.servlet.DynamicRegistrationBean.register(DynamicRegistrationBean.java:111) - Servlet statViewServlet was not registered (possibly already registered?)
+[13:59:47:409] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'characterEncodingFilter' to: [/*]
+[13:59:47:409] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[13:59:47:410] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[13:59:47:410] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:244) - Mapping filter: 'requestContextFilter' to: [/*]
+[13:59:47:410] [INFO] - org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:257) - Mapping filter: 'webStatFilter' to urls: [/*]
+[13:59:47:411] [INFO] - org.springframework.boot.web.servlet.DynamicRegistrationBean.register(DynamicRegistrationBean.java:111) - Filter webStatFilter was not registered (possibly already registered?)
+[13:59:47:640] [INFO] - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:361) - Building JPA container EntityManagerFactory for persistence unit 'default'
+[13:59:47:660] [INFO] - org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[13:59:47:754] [INFO] - org.hibernate.Version.logVersion(Version.java:45) - HHH000412: Hibernate Core {5.2.16.Final}
+[13:59:47:755] [INFO] - org.hibernate.cfg.Environment.<clinit>(Environment.java:213) - HHH000206: hibernate.properties not found
+[13:59:47:796] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[13:59:52:038] [ERROR] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:872) - init datasource error, url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:861) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1229) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1225) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:90) ~[druid-1.1.10.jar:1.1.10]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:861) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1761) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1698) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at com.jzx.blog.BlogApplication.main(BlogApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 70 more
+[13:59:52:138] [ERROR] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:905) - {dataSource-1} init error
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:861) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1229) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1225) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:90) ~[druid-1.1.10.jar:1.1.10]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:861) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888) ~[hibernate-core-5.2.16.Final.jar:5.2.16.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1761) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1698) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:579) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) [spring-context-5.0.5.RELEASE.jar:5.0.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at com.jzx.blog.BlogApplication.main(BlogApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 70 more
+[13:59:52:140] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:930) - {dataSource-1} inited
+[13:59:52:141] [WARN] - org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:132) - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[13:59:52:150] [INFO] - org.hibernate.dialect.Dialect.<init>(Dialect.java:157) - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[13:59:52:163] [INFO] - org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.makeLobCreatorBuilder(LobCreatorBuilderImpl.java:63) - HHH000422: Disabling contextual LOB creation as connection was null
+[13:59:56:147] [ERROR] - com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2471) - create connection SQLException, url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) [druid-1.1.10.jar:1.1.10]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 23 more
+[14:00:00:165] [ERROR] - com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2471) - create connection SQLException, url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) [druid-1.1.10.jar:1.1.10]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 23 more
+[14:00:04:681] [ERROR] - com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2471) - create connection SQLException, url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) [druid-1.1.10.jar:1.1.10]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 23 more
+[14:00:09:188] [ERROR] - com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2471) - create connection SQLException, url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_211]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_211]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1560) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1623) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2468) [druid-1.1.10.jar:1.1.10]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_211]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_211]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_211]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_211]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_211]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_211]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46.jar:5.1.46]
+	... 23 more
+[14:00:09:879] [INFO] - org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:415) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[14:00:10:316] [INFO] - org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService(QueryTranslatorFactoryInitiator.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+[14:00:10:462] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[14:00:10:793] [INFO] - org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@311c06c9: startup date [Wed Oct 07 13:59:45 CST 2020]; root of context hierarchy
+[14:00:10:827] [WARN] - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:235) - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[14:00:10:864] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageArtList],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllPageArtList()
+[14:00:10:867] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageArtList/{currentPage}/{pageSize}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllPageArtList(java.lang.Integer,java.lang.Integer)
+[14:00:10:868] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/addSignArtInfo],methods=[POST]}" onto public void com.jzx.blog.controller.ArticleController.addSignArtInfo(com.jzx.blog.domain.Article)
+[14:00:10:868] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findOneArt/{AId}],methods=[GET]}" onto public com.jzx.blog.domain.Article com.jzx.blog.controller.ArticleController.findOneArt(java.lang.Long)
+[14:00:10:868] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/test],methods=[GET]}" onto public com.jzx.blog.domain.Article com.jzx.blog.controller.ArticleController.tset()
+[14:00:10:869] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllArt],methods=[GET]}" onto public java.util.List<com.jzx.blog.domain.Article> com.jzx.blog.controller.ArticleController.findAllArt()
+[14:00:10:869] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllArtList],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.ArticleController.findAllArtList()
+[14:00:10:870] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPage/{currentPage}/{pageSize}],methods=[GET]}" onto public org.springframework.data.domain.Page<com.jzx.blog.domain.Article> com.jzx.blog.controller.ArticleController.findAllPage(java.lang.Integer,java.lang.Integer)
+[14:00:10:872] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/delCate/{cid}],methods=[DELETE]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.delCate(java.lang.Long)
+[14:00:10:872] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/saveCate],methods=[POST]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.saveCate(com.jzx.blog.domain.Category)
+[14:00:10:873] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/findAllPageCateList/{currentPage}/{pageSize}],methods=[GET]}" onto public com.jzx.blog.common.lang.Result com.jzx.blog.controller.CategoryController.findAllPageCateList(java.lang.Integer,java.lang.Integer)
+[14:00:10:875] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[14:00:10:876] [INFO] - org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[14:00:10:889] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:360) - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[14:00:10:889] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/index.html] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[14:00:10:889] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[14:00:10:903] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[14:00:10:904] [INFO] - org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[14:00:11:026] [INFO] - org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:56) - Adding welcome page: class path resource [static/index.html]
+[14:00:11:344] [INFO] - org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:57) - LiveReload server is running on port 35729
+[14:00:11:423] [INFO] - org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+[14:00:11:425] [INFO] - org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:895) - Bean with name 'springDruidDataSource' has been autodetected for JMX exposure
+[14:00:11:427] [INFO] - org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:895) - Bean with name 'statFilter' has been autodetected for JMX exposure
+[14:00:11:465] [INFO] - org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:668) - Located MBean 'springDruidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=springDruidDataSource,type=DruidDataSource]
+[14:00:11:467] [INFO] - org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:668) - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+[14:00:11:484] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8088"]
+[14:00:11:518] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+[14:00:11:566] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:206) - Tomcat started on port(s): 8088 (http) with context path ''
+[14:00:11:572] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started BlogApplication in 27.182 seconds (JVM running for 29.732)
+[14:00:16:343] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[14:00:16:343] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494) - FrameworkServlet 'dispatcherServlet': initialization started
+[14:00:16:372] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:509) - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+[14:00:16:511] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:00:16:866] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:00:18:636] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:00:18:640] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:00:23:519] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:00:23:523] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:00:24:963] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:00:24:968] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:01:08:000] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:01:08:004] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:03:12:787] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:03:12:791] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:03:25:893] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:25:902] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:29:346] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_0_, category0_.cname as cname2_1_0_ from b_category category0_ where category0_.cid=?
+[14:03:29:367] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [88]
+[14:03:29:390] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - delete from b_category where cid=?
+[14:03:29:394] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [88]
+[14:03:29:408] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:29:412] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:35:159] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_0_, category0_.cname as cname2_1_0_ from b_category category0_ where category0_.cid=?
+[14:03:35:161] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [89]
+[14:03:35:163] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - delete from b_category where cid=?
+[14:03:35:163] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [89]
+[14:03:35:175] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:35:177] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:37:397] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_0_, category0_.cname as cname2_1_0_ from b_category category0_ where category0_.cid=?
+[14:03:37:398] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [90]
+[14:03:37:399] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - delete from b_category where cid=?
+[14:03:37:400] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [BIGINT] - [90]
+[14:03:37:412] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:37:414] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:47:710] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_category (cname) values (?)
+[14:03:47:715] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [哈哈哈哈]
+[14:03:47:719] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select last_insert_id()
+[14:03:47:749] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:47:753] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:51:100] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[14:03:53:204] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:53:206] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:03:59:812] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_category (cname) values (?)
+[14:03:59:812] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [哈哈]
+[14:03:59:813] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select last_insert_id()
+[14:03:59:846] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:03:59:850] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:08:516] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[14:04:10:941] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:10:944] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:22:612] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - insert into b_category (cname) values (?)
+[14:04:22:612] [TRACE] - org.hibernate.type.descriptor.sql.BasicBinder.bind(BasicBinder.java:65) - binding parameter [1] as [VARCHAR] - [好啊]
+[14:04:22:614] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select last_insert_id()
+[14:04:22:638] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:22:641] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:26:468] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?, ?
+[14:04:31:276] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:31:279] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:38:816] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:04:38:819] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:04:44:302] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:44:305] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:45:121] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:04:45:124] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:04:47:573] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:47:576] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:48:123] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:04:48:128] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:04:48:825] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:04:48:827] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:04:49:362] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:04:49:366] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:05:04:005] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:05:04:011] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:05:04:799] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:05:04:803] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:05:10:504] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:05:10:507] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:24:15:141] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:24:15:146] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:24:21:139] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:24:21:144] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:24:22:315] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:24:22:319] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:24:34:872] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:24:34:875] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:24:35:885] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:24:35:888] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:24:43:870] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:24:43:873] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:05:384] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:05:387] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:09:845] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:09:849] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:13:837] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:13:840] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:14:826] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:14:829] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:55:558] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:55:560] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:25:55:793] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:25:55:798] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:26:34:736] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:26:34:741] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:26:34:948] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:26:34:952] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:26:45:043] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:26:45:046] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:26:46:005] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:26:46:007] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:27:22:961] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:27:22:963] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:27:22:975] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:27:22:979] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:31:55:503] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:31:55:508] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:31:55:662] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:31:55:667] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:34:45:339] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:34:45:342] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:34:45:360] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:34:45:364] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:34:49:550] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:34:49:552] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:34:50:529] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:34:50:532] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:37:01:065] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:37:01:068] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:37:01:094] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:37:01:098] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:40:46:026] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:40:46:029] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:40:46:037] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:40:46:041] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:42:43:282] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:42:43:285] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:42:44:197] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:42:44:199] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:43:05:099] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:43:05:103] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:43:11:758] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:43:11:775] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:43:12:382] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:43:12:385] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:43:16:760] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:43:16:763] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:46:32:443] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:46:32:445] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:46:41:584] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:46:41:587] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:46:42:846] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:46:42:849] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:20:684] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:20:688] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:20:752] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:20:755] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:20:923] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:20:926] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:21:108] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:21:110] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:21:427] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:21:434] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:21:557] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:21:559] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:33:782] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:33:784] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:37:639] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:37:642] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:51:38:634] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:51:38:636] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:52:36:252] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:52:36:255] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:52:37:610] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:52:37:613] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:53:06:971] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:53:06:974] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:53:08:286] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:53:08:289] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:53:41:517] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:53:41:519] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:53:42:680] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:53:42:682] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:53:50:717] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:53:50:719] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:53:51:609] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:53:51:611] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:56:02:372] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:56:02:375] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:56:02:389] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:56:02:392] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:34:784] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:34:786] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:34:809] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:34:811] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:37:702] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:37:704] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:39:060] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:39:063] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:40:257] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:40:260] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:41:427] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:41:429] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:42:085] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:42:087] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:42:543] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:42:545] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:43:747] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:43:748] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:48:181] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[14:57:48:184] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[14:57:48:846] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:48:849] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:49:815] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:49:817] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:51:644] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:51:644] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:52:300] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:52:302] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:52:796] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:52:798] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:53:308] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:53:311] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:53:820] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:53:822] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:54:727] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:57:54:728] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:57:55:751] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:57:55:754] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:47:845] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:58:47:847] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:48:494] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:58:48:496] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:49:092] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:58:49:093] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:49:708] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:58:49:710] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:50:222] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:58:50:224] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:51:191] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[14:58:51:193] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[14:58:51:676] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[14:58:51:677] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:00:49:664] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:00:49:667] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:00:49:677] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:00:49:680] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:12:220] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:12:223] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:12:282] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:12:284] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:14:032] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:14:034] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:19:381] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:19:383] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:23:407] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:23:410] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:24:219] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:01:24:224] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:01:25:359] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:25:362] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:01:26:314] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:01:26:316] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:02:47:733] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:02:47:736] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:02:47:754] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:02:47:758] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:04:21:738] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:04:21:742] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:11:00:605] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:11:00:608] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:11:00:701] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:11:00:703] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:13:05:507] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:13:05:509] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:13:05:520] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:13:05:522] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:13:36:028] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:13:36:031] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:13:56:369] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:13:56:372] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:13:57:491] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:13:57:493] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:14:25:508] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:14:25:510] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:14:26:433] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:14:26:435] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:16:45:899] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:16:45:901] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:16:46:734] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:16:46:736] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:16:47:573] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:16:47:574] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:18:17:324] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:18:17:326] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:18:17:873] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:18:17:875] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:18:18:718] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:18:18:719] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:18:20:823] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:18:20:825] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:18:25:768] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:18:25:770] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:24:320] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:24:322] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:24:332] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:24:334] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:26:573] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:22:26:574] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:27:323] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:22:27:325] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:29:290] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:22:29:294] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:29:298] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:29:303] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:36:192] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:36:194] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:38:672] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:22:38:673] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:41:695] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:22:41:700] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:22:42:318] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:42:320] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:22:42:868] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:22:42:870] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:22:43:415] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:22:43:418] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:23:36:773] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:23:36:776] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:23:37:991] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:23:37:993] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:23:39:444] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:23:39:446] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:23:40:524] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:23:40:526] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:23:54:714] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:23:54:716] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:23:55:558] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:23:55:560] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:26:337] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:26:338] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:27:101] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:27:103] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:28:270] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:28:272] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:28:820] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:28:822] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:29:501] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:29:505] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:30:141] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:30:142] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:31:189] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:31:191] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:31:887] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:26:31:888] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:32:716] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:32:718] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:33:355] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:33:356] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:34:005] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?, ?
+[15:26:34:007] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:35:644] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:26:35:648] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:26:36:196] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:26:36:199] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_
+[15:26:38:861] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select category0_.cid as cid1_1_, category0_.cname as cname2_1_ from b_category category0_ limit ?
+[15:26:38:867] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(category0_.cid) as col_0_0_ from b_category category0_
+[15:26:39:885] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select article0_.aid as aid1_0_, article0_.acontent as acontent2_0_, article0_.aname as aname3_0_, article0_.artime as artime4_0_ from b_article article0_ limit ?
+[15:26:39:887] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:92) - select count(article0_.aid) as col_0_0_ from b_article article0_

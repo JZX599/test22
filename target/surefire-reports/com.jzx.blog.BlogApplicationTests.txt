@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.jzx.blog.BlogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 6.204 s <<< FAILURE! - in com.jzx.blog.BlogApplicationTests
+finone(com.jzx.blog.BlogApplicationTests)  Time elapsed: 0.035 s  <<< ERROR!
+javax.persistence.EntityNotFoundException: Unable to find com.jzx.blog.domain.Article with id 1
+	at com.jzx.blog.BlogApplicationTests.finone(BlogApplicationTests.java:83)
+
+test3(com.jzx.blog.BlogApplicationTests)  Time elapsed: 0.019 s  <<< ERROR!
+org.springframework.data.mapping.PropertyReferenceException: No property aid found for type Article! Did you mean 'AId'?
+	at com.jzx.blog.BlogApplicationTests.test3(BlogApplicationTests.java:322)
+
+testGetOne(com.jzx.blog.BlogApplicationTests)  Time elapsed: 0.01 s  <<< ERROR!
+javax.persistence.EntityNotFoundException: Unable to find com.jzx.blog.domain.Article with id 2
+	at com.jzx.blog.BlogApplicationTests.testGetOne(BlogApplicationTests.java:165)
+
